@@ -10,23 +10,21 @@ body{
     background-color: black;
 }
 
-.galeria{
+.Func{
     display: column;
     columns: 3;
     color: white;
 }
-.galeria img{
-    width: 100%;
+.Func img{
+    width: 50%;
     padding-block: 8px;
 }
-
-.galeria p{
-    background-color: rgb(78, 0, 180);
-    font-size: 20px;
+.imagem{
+    display: column;
+    columns: 3;
+    color: white;
 }
-
-
-.galeria span{
-    background-color: rgb(78, 0, 180);
-    font-size: 20px;
+.imagem img{
+    width: 50%;
+    padding-block: 8px;
 }
