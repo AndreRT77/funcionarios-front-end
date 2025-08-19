@@ -7,24 +7,42 @@
 body{
     padding-block: 8px;
     place-content: center;
-    background-color: black;
+    background-color: lightgray;
 }
 
-.Func{
-    display: column;
-    columns: 3;
-    color: white;
-}
+
 .Func img{
-    width: 50%;
-    padding-block: 8px;
+    display: flex;
+    width: 5%;
+    border-radius: 50%;
+    place-content: center;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-flow: column;
+
+
+
 }
-.imagem{
-    display: column;
-    columns: 3;
-    color: white;
+.Func nome{
+    font-size: 30px;
+    color: black;
 }
-.imagem img{
-    width: 50%;
-    padding-block: 8px;
+.Func cargo{
+    font-size: 10px;
+    color: black;
 }
+
+.Func div{
+    background-color: white;
+    position: center;
+    place-content: center;
+    background-size: 2%;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+

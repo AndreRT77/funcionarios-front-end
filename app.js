@@ -3,11 +3,11 @@ import funcionarios from './funcionarios.json' with { type: "json" };
 
 function criarImagem(funcionario) {
     const Func = document.getElementById('Func');
-
     const container = document.createElement('div');
     const imagem = document.createElement('img');
     const nome = document.createElement('p');
     const cargo = document.createElement('span');
+
 
 
     imagem.src = "./img/" + funcionario.imagem; 
@@ -24,5 +24,6 @@ function criarImagem(funcionario) {
 function carregarImagens() {
     funcionarios.forEach(criarImagem); 
 }
+
 
 carregarImagens();
